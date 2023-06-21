@@ -11,7 +11,7 @@
     "start": "webpack-dev-server"
   },
   "dependencies": {
-    "wasm-game-of-life": "file:../pkg"
+    "woo_woo_wasm": "file:../pkg"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^11.0.0",

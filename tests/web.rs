@@ -6,7 +6,7 @@ extern crate wasm_bindgen_test;
 use wasm_bindgen_test::*;
 
 extern crate wasm_game_of_life;
-use wasm_game_of_life::Universe;
+use woo_woo_wasm::Universe;
 
 wasm_bindgen_test_configure!(run_in_browser);
 

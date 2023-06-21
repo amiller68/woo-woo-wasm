@@ -16,9 +16,9 @@
 
 
 // Sol: Display canvas
-import { memory } from "wasm-game-of-life/wasm_game_of_life_bg.wasm";
+import { memory } from "woo_woo_wasm/wasm_game_of_life_bg.wasm";
 // import { Universe, Cell } from "wasm-game-of-life";
-import { Universe } from "wasm-game-of-life";
+import { Universe } from "woo_woo_wasm";
 
 const CELL_SIZE = 5; // px
 const GRID_COLOR = "#CCCCCC";

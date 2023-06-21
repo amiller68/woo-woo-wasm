@@ -26,11 +26,11 @@ impl<'a> Drop for Timer<'a> {
 }
 
 // A macro to provide `println!(..)`-style syntax for `console.log` logging.
-macro_rules! log {
-    ( $( $t:tt )* ) => {
-        web_sys::console::log_1(&format!( $( $t )* ).into());
-    }
-}
+// macro_rules! log {
+//     ( $( $t:tt )* ) => {
+//         web_sys::console::log_1(&format!( $( $t )* ).into());
+//     }
+// }
 
 // When the `wee_alloc` feature is enabled, use `wee_alloc` as the global
 // allocator.
@@ -60,13 +60,13 @@ pub struct Universe {
     cells: FixedBitSet,
 }
 
-static INIT_PATTERN: [(u32, u32); 5] = [
-    (1, 2),
-    (2, 3),
-    (3, 1),
-    (3, 2),
-    (3, 3),
-];
+// static INIT_PATTERN: [(u32, u32); 5] = [
+//     (1, 2),
+//     (2, 3),
+//     (3, 1),
+//     (3, 2),
+//     (3, 3),
+// ];
 
 // impl fmt::Display for Universe {
 //     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
